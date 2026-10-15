@@ -11,9 +11,17 @@ from torch.utils.data import Dataset
 import mne
 
 
+import os
+
 PROJECT = Path(
-    "/content/drive/MyDrive/NeuroTrustFormer_HISS"
+    os.environ.get(
+        "NEUROTRUSTFORMER_HOME",
+        Path(__file__).resolve().parent
+    )
 )
+
+DATA_DIR = PROJECT / "data" / "chbmit"
+RESULTS_DIR = PROJECT / "results"
 
 DATA_DIR = PROJECT / "data" / "chbmit"
 RESULTS_DIR = PROJECT / "results"
