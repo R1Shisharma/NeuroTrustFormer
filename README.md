@@ -59,16 +59,14 @@ Reproduction requires access to the appropriate datasets, compatible software de
 
 ## Software Requirements
 
-The code is written in Python. The exact package versions and installation instructions will be documented after the experimental environment and dependencies have been verified.
+The project uses Python for EEG preprocessing, model development, and experimental evaluation. The software dependencies and execution instructions will be documented alongside the relevant source code and notebooks as the reproducibility package is finalised.
 
-Please consult the relevant scripts and notebooks for their specific imports and execution requirements.
-
-## Responsible Data Use
-
-- Do not upload identifiable participant information or restricted clinical or neuroimaging data.
-- Respect the access, licensing, and redistribution conditions of the original datasets.
-- Do not publish credentials, access tokens, or private filesystem paths.
-- Treat exploratory preprocessing results separately from fully validated experimental results.
+## Data Access and Use
+The experiments use publicly available research datasets subject to their respective access conditions
+and terms of use. Source datasets containing restricted clinical or neuroimaging information are not
+redistributed through this repository. Researchers seeking to reproduce the experiments should obtain
+the relevant datasets directly from their authorised providers and comply with applicable data-use
+requirements.
 
 ## Research Manuscript
 
