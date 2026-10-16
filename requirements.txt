@@ -2,3 +2,10 @@ numpy
 pandas
 torch
 mne
+wfdb
+pyedflib
+scikit-learn
+scipy
+matplotlib
+tqdm
+requests
