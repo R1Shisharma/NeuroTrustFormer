@@ -29,7 +29,7 @@ python -m venv .venv
 On Windows:
 
 ```powershell
-.venv\\Scripts\\Activate.ps1
+.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
